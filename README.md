@@ -2,11 +2,14 @@ EE361 - Electromechanical Energy Conversion
 =====
 
 Course Notes
-1 ![](https://github.com/ozank/ee361/blob/master/cover_small.jpg)
 
-2 [](https://github.com/ozank/ee361/blob/master/cover_small.jpg)
+1 ![](https://raw.githubusercontent.com/ozank/ee361/master/cover_small.jpg)
 
-3 ![]('./cover_small.jpg')
+2 [dene](https://raw.githubusercontent.com/ozank/ee361/master/cover_small.jpg)
+
+3 ![](./electric_grid.svg)
+
+8 ![](./electric_grid.png)
 
 4 ![](cover_small.jpg)
 

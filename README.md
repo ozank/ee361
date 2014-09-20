@@ -5,7 +5,7 @@ Course Notes
 
 1 ![](https://raw.githubusercontent.com/ozank/ee361/master/cover_small.jpg)
 
-2 [dene](https://raw.githubusercontent.com/ozank/ee361/master/cover_small.jpg)
+2 ![](images/electric_grid.svg)
 
 8 ![](images/electric_grid.png)
 

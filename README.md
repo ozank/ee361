@@ -2,10 +2,15 @@ EE361 - Electromechanical Energy Conversion
 =====
 
 Course Notes
-[](./cover_small.jpg)
-[]('./cover_small.jpg')
-[](cover_small.jpg)
-[]('cover_small.jpg')
+1 ![](https://github.com/ozank/ee361/blob/master/cover_small.jpg)
+
+2 [](https://github.com/ozank/ee361/blob/master/cover_small.jpg)
+
+3 ![]('./cover_small.jpg')
+
+4 ![](cover_small.jpg)
+
+5 ![]('cover_small.jpg')
 
 sdsadsa
 

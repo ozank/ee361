@@ -1,4 +1,4 @@
-ee361
+EE361 - Electromechanical Energy Conversion
 =====
 
-EE361 - Electromechanical Energy Conversion
+Course Notes

@@ -6,26 +6,19 @@ Course Notes
 
 ---
 
-Define a variable `x` equal to 10.
+Here is the introduction for the quiz
 
-```js
-var x =
-```
+This is Question 1:
+- [x] This is the proposition 1 (the correct one)
+- [ ] This is the proposition 2
 
-```js
-var x = 10;
-```
+> This is a help message when the answer to question 1 is wrong
 
-```js
-assert(x == 10);
-```
+This is Question 2:
+- [ ] This is the proposition 1
+- [x] This is the proposition 2 (correct)
+- [x] This is the proposition 3 (correct)
 
-```js
-// This is context code available everywhere
-// The user will be able to call magicFunc in his code
-function magicFunc() {
-    return 3;
-}
-```
+> This is a help message when the answer to question 2 is wrong
 
 ---

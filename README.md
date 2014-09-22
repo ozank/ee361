@@ -16,20 +16,27 @@ The figure below is a simple representation of energy grid (from source to custo
 
 ![](images/electric_grid.svg)
 The steps include:
-- Generation at the power plants
+- Generation at power plants
 - Increasing voltage up to 400 kV with step-up transformers
 - Transmission of energy with high-voltage lines
 - Decreasing voltage for industrial and domestic users with step-down transfomers.
+
+Domestic users just consume 30% of total electricity generation. Electric motors consume nearly 50% of electricity generation.
 
 ## Electric Grid of Turkey
 ![](images/turkiye_elektrik_iletim.png)
 
 ### Electric Generation in Turkey
 
-- Capacity: 56 GW (~30 million kettles)
-- Max. Consumption: 40 GW
+- Installed Capacity: 61.2 GW
+- Max. Consumption: 40 GW (~30 million kettles)
+- Annual Generation: 239.500 GWh (6th in Europe)
+  - Domestic Usage: ~30%
+  - Industrial Usage: ~70
+- Per Capita Consuption: 2850 kWh (2010) ([Other Countries](http://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC))
 
-**Sources of Energy:**
+
+#### Sources of Energy:
 * Natural Gas: 43 %
 * Coal: 27 %
 * Hydro: 25 %

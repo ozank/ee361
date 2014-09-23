@@ -3,15 +3,15 @@
 
 Magnetic circuits are analogous to electric circuits:
 
-| Circuit | Water | Electric | Magnetic |
-| -- | -- | -- | -- |
-| Excitation | Force ($$N$$) | EMF ($$V$$) | MMF (Ampere.turns, $$NI$$) |
-|  | Pressure, $$\vec{P}$$ ($$N/m2$$) | Electric Field, $$\vec{E}$$ ($$V/m$$) | Magnetic Field, $$\vec{H}$$ ($$A/m$$) |
-| Outcome | Water Flow ($$m^3/s$$) | Current, $$I$$ ($$A$$) | Flux,$$\Phi$$ ($$Wb$$)|
-|  | Flow Density ($$m/s$$) | Current Density, $$\vec{J}$$ ($$A/m^2$$) | Flux Density, $$\vec{B}$$ ($$Wb/m^2, T$$) |
-| Flow Limiter | Resistance | Resistance, $$R$$ ($$\Omega$$) | Reluctance, $$\mathcal{R}$$ ($$A/Wb$$) |
-| | |Conductivity, $$\sigma$$ ($$S/m$$) | Permeability, $$\mu$$ ($$H/m$$)  |
-| | |Resistivity, $$\rho$$ ($$\Omega.m$$) |Reluctivity, ($$m/H$$)|
+| Circuit | Water | |Electric || Magnetic ||
+| -- | -- | -- | -- |--|
+| Excitation | Force | $$N$$ |EMF |$$V$$ | MMF ($$NI$$) |$$A$$|
+|  | Pressure, $$\vec{P}$$ |$$N/m^2$$ | Electric Field, $$\vec{E}$$ |$$V/m$$ | Magnetic Field, $$\vec{H}$$ |$$A/m$$|
+| Outcome | Water Flow |$$m^3/s$$ | Current, $$I$$ |$$A$$ | Flux,$$\Phi$$ |$$Wb$$|
+|  | Flow Density |$$m/s$$ | Current Density, $$\vec{J}$$ |$$A/m^2$$ | Flux Density, $$\vec{B}$$ |$$Wb/m^2, T$$ |
+| Flow Limiter | Resistance| | Resistance, $$R$$ |$$\Omega$$ | Reluctance, $$\mathcal{R}$$ | $$A/Wb$$ |
+| | ||Conductivity, $$\sigma$$ |$$S/m$$ | Permeability, $$\mu$$ |$$H/m$$  |
+| | ||Resistivity, $$\rho$$ |$$\Omega.m$$ |Reluctivity, |$$m/H$$|
 
 Basic Materials:
 
@@ -102,6 +102,25 @@ $$\mathcal{R} = \frac{l}{\mu A}$$
 
 where $$l$$ is the length of the material, $$A$$ is the cross-sectional area and **$$\mu$$ is the magnetic permeability**.
 
+#### Flux Density - Magnetic Field Relation ($$B=\mu H$$)
+Magnetic flux density is found dividing the magnetic flux by area:
+
+$$B=\frac{\Phi}{A}$$
+
+MMF is the $$H$$ multiplied by length ($$l$$), (or similarly in the integral form):
+
+$$\mathcal{F} = H l$$
+
+Thus, $$\mathcal{F} = \Phi \mathcal{R}$$ can be written as:
+
+$$Hl = BA \frac{l}{\mu A}$$
+
+which gives:
+
+$$\vec{B} = \mu \vec{H}$$
+
+It is similar to the relation between current density, electric field and conductivity (i.e. $$\vec{J}=\rho \vec{E}$$).
+
 #### Magnetic Permeability
 The magnetic permeability of free space(vacuum) is:
 
@@ -119,18 +138,18 @@ You can also come across with **Permeance**, which is the inverse of permeabilit
 
 (Permeability = conductivity, permeance = resistivity).
 
-**Exercise:**
-Calculate the reluctance of the iron core in terms of $$\mu_0$$, assuming $$\mu_r=4000$$, $$l=500 mm$$, $$A_c=2500mm^2$$.
+#### Exercise:
+ * Calculate the reluctance of the iron core in terms of $$\mu_0$$, assuming $$\mu_r=4000$$, $$l=500 mm$$, $$A_c=2500mm^2$$.
 
 ![](http://cnx.org/resources/ba4063b1389868a682d7bcc67404e3b5/graphics1.png)
 
-!! Don't forget to convert into SI units (e.g. mm to m)
+**!! Don't forget to convert into SI units (e.g. mm to m)**
 
 $$\mathcal{R}=\frac{l}{\mu_0\mu_rA}$$
 
 $$\mathcal{R_{core}}=\frac{0.5}{\mu_0.4000.2500.10^{-6}}=\frac{0.05}{\mu_0}$$
 
-Now, calculate the reluctance again with the air-gap added as below. Relative permeability of air is 1 ($$\mu_r=1$$), and assume the air-gap is 3 mm.
+* Now, calculate the reluctance again with the air-gap added as below. Relative permeability of air is 1 ($$\mu_r=1$$), and assume the air-gap is 3 mm.
 
 ![](http://cnx.org/resources/c0c50d886ce1207d8ed7b52265541b80/graphics2.png)
 
@@ -151,4 +170,26 @@ $$\mathcal{R}_{eq}=\frac{0.05}{\mu_0}+\frac{1.2}{\mu_0}=\frac{1.25}{\mu_0}$$
 
 We increased the equivalent reluctance 25 times, by adding just a small air-gap. Air-gap reluctances dominates the magnetic circuit, so it is usually acceptable to neglect core reluctance by assuming $$\mu_r = \infty$$.
 
+* Calculate and compare the flux density (B) in the core, for each case assuming $$N_{turns}=7$$ and $$i=5A$$.
 
+The equivalent circuit diagrams are shown above. Let's calculate the total flux in each case:
+
+$$\mathcal{F} = \Phi \mathcal{R}$$
+
+$$\Phi = \frac{NI}{\mathcal{R}_{eq}}$$
+
+$$\Phi_{without-gap} = \frac{NI \mu_0}{0.05}$$
+$$\Phi_{with-gap} = \frac{NI \mu_0}{1.25}$$
+
+putting in the numbers:
+
+$$\Phi_{without-gap} \sim 0.88 mWb$$
+$$\Phi_{with-gap} \sim 0.035 mWb$$
+
+Flux density can be found by dividing the magnetic flux by area.
+$$B=\frac{\Phi}{Area}$$
+
+$$B_{without-gap} =\frac{0.88mWb}{2500.10^{-6} m^2}=0.352 \; T$$
+$$\Phi_{with-gap} \frac{0.035mWb}{2500.10^{-6} m^2}=0.014 \; T$$
+
+Increasing reluctance (by adding air-gap_ reduces the magnetic flux.

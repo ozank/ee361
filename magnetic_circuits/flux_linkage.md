@@ -9,6 +9,8 @@ $$\lambda = N_{turns} \Phi$$
 $$e(t) = \frac{\mathrm{d} \lambda(t)}{\mathrm{d}t}$$
 $$e(t) = N_{turns} \times \frac{\mathrm{d} \Phi(t)}{\mathrm{d}t}$$
 
+[Kirchhoff's Law vs Faraday's Law](http://www.youtube.com/watch?v=eqjl-qRy71w)
+
 if magnetic flux distribution is uniform:
 
 $$e(t) = N_{turns} \times Area \times \frac{\mathrm{d} B(t)}{\mathrm{d}t}$$
@@ -16,6 +18,8 @@ $$e(t) = N_{turns} \times Area \times \frac{\mathrm{d} B(t)}{\mathrm{d}t}$$
 Methods to generate voltage in a coil:
 - Varying magnetic flux by an AC excitation
 - Varying flux linkage by changing area
+- Motion or rotation of the coil thorugh a static field
+
 
 # Inductance
 

@@ -86,6 +86,8 @@ Practical meaning, there are no net magnetic flux sources. (If you break a magne
 
 ### 3. Faraday's Law (will be covered in the next lecture)
 
+[Kirchhoff's Law vs Faraday's Law](http://www.youtube.com/watch?v=eqjl-qRy71w)
+
 ### Ohm's Law (for a magnetic circuit)
 In electric circuits, we have:
 $$V=IR$$
@@ -151,7 +153,7 @@ $$\mathcal{R_{core}}=\frac{0.5}{\mu_0.4000.2500.10^{-6}}=\frac{0.05}{\mu_0}$$
 
 * Now, calculate the reluctance again with the air-gap added as below. Relative permeability of air is 1 ($$\mu_r=1$$), and assume the air-gap is 3 mm.
 
-![](http://cnx.org/resources/c0c50d886ce1207d8ed7b52265541b80/graphics2.png)
+!git s[](http://cnx.org/resources/c0c50d886ce1207d8ed7b52265541b80/graphics2.png)
 
 We can think the circuit as two series resistances connected together.
 

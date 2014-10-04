@@ -56,7 +56,7 @@ The line integral of the magnetic field around a closed path is equal to the sur
 
 $$\oint_C {\vec{H}.d\vec{\ell}} = \bigcirc\!\!\!\!\!\!\!\!\!\iint_S \vec{J}.\vec{n}dA$ = \sum I_n $$
 
-Magnetic field intensity(H) is independent of the material!
+Magnetic field intensity(H) is independent of the material properties!
 
 Calculate the magnetic field around a current-carrying conductor (as a function of the radius,r):
 ![](http://farside.ph.utexas.edu/teaching/302l/lectures/img740.png)
@@ -82,18 +82,14 @@ or in integral form, net flux lines in a closed surface is zero
 
 $$\bigcirc\!\!\!\!\!\!\!\!\!\iint_S \vec{B}.\vec{n}dA = 0$$
 
-Practical meaning, there are no net magnetic flux sources. (If you break a magnet into two smaller magnets, you don't have one south-pole and one north-pole magnet. Each magnet will have its own north and south pole) You can watch [Sheldon Cooper](http://www.youtube.com/watch?v=FMhrCoyeRVI) on magnetic di-poles. You can also watch [Richard Feynman](http://www.youtube.com/watch?v=wMFPe-DwULM) on magnetic forces.
-
-### 3. Faraday's Law (will be covered in the next lecture)
-
-[Kirchhoff's Law vs Faraday's Law](http://www.youtube.com/watch?v=eqjl-qRy71w)
+**Practical meaning:**
+There are no net magnetic flux sources. (If you break a magnet into two smaller magnets, you don't have one south-pole and one north-pole magnet. Each magnet will have its own north and south pole) You can watch [Sheldon Cooper](http://www.youtube.com/watch?v=FMhrCoyeRVI) on magnetic di-poles. You can also watch [Richard Feynman](http://www.youtube.com/watch?v=wMFPe-DwULM) on magnetic forces.
 
 ### Ohm's Law (for a magnetic circuit)
 In electric circuits, we have:
 $$V=IR$$
 
 In magnetic circuits(Magneto-motive-force:$$\mathcal{F}$$):
-
 
 $$\mathcal{F} = \Phi \mathcal{R}$$
 

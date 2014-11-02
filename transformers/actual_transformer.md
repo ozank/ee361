@@ -39,8 +39,6 @@ As the values of \\(R_1\\) and \\(X_l\\) is very small compared to \\(R_c\\) and
 
 ![](http://blog.oureducation.in/wp-content/uploads/2013/05/hh.png)
 
-$$R_{eq} = R_1 + R_2'$$
-$$X_{eq} = X_1 + X_2'$$
 
 ## Solved Problems
 Solved problems on transformers.

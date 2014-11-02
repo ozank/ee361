@@ -11,4 +11,6 @@
 * [Transformers](transformers/README.md)
    * [Ideal Transformer](transformers/ideal_transformer.md)
    * [Practical Transformer](transformers/actual_transformer.md)
+   * [No-Load & Short-Circuit Tests](transformers/no-load_&_short-circuit_tests)
+   * [Voltage Regulation](transformers/voltage_regulation)
 

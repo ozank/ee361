@@ -17,7 +17,7 @@ Equivalent circuit of an actual transformer:
 ![](http://cnx.org/resources/6dc44719e43cf601fbf7cc2ad9ccc432/graphics9.png)
 
 #### Components:
-* Winding Resistances (\\(R_1 \; R_2 \\)): This is the resistance of the copper used in the primary and secondary winding.
+* Winding Resistances (\\(R_1 ,\: R_2 \\)): This is the resistance of the copper used in the primary and secondary winding.
 * Leakage Reactance (\\(X_{l}\\)): This component represents the amount of flux that doesn't link the primary and secondary winding. In a good transformer design, this should be as small as possible.
 * Magnetizing Reactance (\\(X_{m}\\)): The current passes through this element represents the magnetizing current. (i.e. the H value in the operating B value).
 * Core Loss Resistance (\\(Rcore\\)): This component represent the losses occur in the transformer core (i.e. hysteresis and eddy current losses).
@@ -25,6 +25,7 @@ Equivalent circuit of an actual transformer:
 ## Simplification of the Equivalent Circuit
 
 #### 1. Transfer secondary side parameters to the primary side
+
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/TREQCCT.jpg/500px-TREQCCT.jpg)
 
 When referring the parameters they should be multiplied by the square of the turns ratio.
@@ -39,6 +40,9 @@ As the values of \\(R_1\\) and \\(X_l\\) is very small compared to \\(R_c\\) and
 
 ![](http://blog.oureducation.in/wp-content/uploads/2013/05/hh.png)
 
+\\(R_{eq} = R_1 + R_2'\\)
+
+\\(X_{eq} = X_1 + X_2'\\)
 
 ## Solved Problems
 Solved problems on transformers.

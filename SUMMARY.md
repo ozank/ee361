@@ -10,4 +10,5 @@
    * [AC excitation](magnetic_circuits/ac_excitation.md)
 * [Transformers](transformers/README.md)
    * [Ideal Transformer](transformers/ideal_transformer.md)
+   * [Practical Transformer](transformers/actual_transformer.md)
 

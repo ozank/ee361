@@ -89,19 +89,19 @@ Or using "1" for primary substution and "2" for secondary:
 $$Z_1 =\left( \frac{N_1}{N_2}\right)^2 Z_2 $$
 
 ### Transformations between primary and secondary:
-Assume the transformer ratio is \\(n\\) (i.e. n:1):
+Assume the transformer ratio is \\(a\\) (i.e. a:1):
 
 #### From Secondary to Primary Winding
-| Refeered to Primary | Actual Value |
+| Referred to Primary | Actual Value |
 | -- | -- |
-| \\(V_2' = n V_2\\) | \\(V_2\\) |
-| \\(I_2' = I_2/n \\) | \\(I_2\\) |
-| \\(Z_2' = n^2 Z_2\\) | \\(Z_2\\) |
+| \\(V_2' = a V_2\\) | \\(V_2\\) |
+| \\(I_2' = I_2/a \\) | \\(I_2\\) |
+| \\(Z_2' = a^2 Z_2\\) | \\(Z_2\\) |
 
 #### From Primary to Secondary Winding
 
-| Actual Value | Refeered to Secondary|
+| Actual Value | Referred to Secondary|
 | -- | -- |
-| \\(V_1\\) | \\(V_1' = V_1 / n\\) |
-| \\(I_1\\) | \\(I_1' = n I_1 \\) |
-| \\(Z_1\\) | \\(Z_1' = Z_1 / n^2\\) |
+| \\(V_1\\) | \\(V_1' = V_1 / a\\) |
+| \\(I_1\\) | \\(I_1' = a I_1 \\) |
+| \\(Z_1\\) | \\(Z_1' = Z_1 / a^2\\) |

@@ -7,4 +7,7 @@ Transformer is a device that involves magnetically coupled coils. ALthough, ther
 Transformers only works with alternating current (see introduction section).
 Transformer's  primary and secondary coils are electrically isolated, but there's a power flow, which is transferred via the magnetic flux.
 
+Video:
 
+- [How transformers work](http://www.youtube.com/watch?v=ZjwzpoCiF8A)
+- [How does a transformer work?](http://www.youtube.com/watch?v=vh_aCAHThTQ)

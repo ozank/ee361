@@ -13,4 +13,5 @@
    * [Practical Transformer](transformers/actual_transformer.md)
    * [No-Load & Short-Circuit Tests](transformers/no-load_&_short-circuit_tests.md)
    * [Voltage Regulation](transformers/voltage_regulation.md)
+   * [Efficiency](transformers/efficiency.md)
 

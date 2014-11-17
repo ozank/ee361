@@ -14,4 +14,6 @@
    * [No-Load & Short-Circuit Tests](transformers/no-load_&_short-circuit_tests.md)
    * [Voltage Regulation](transformers/voltage_regulation.md)
    * [Efficiency](transformers/efficiency.md)
+   * [3phase Transformers](transformers/3phase_transformers.md)
+   * [Per-unit System](transformers/per-unit_system)
 

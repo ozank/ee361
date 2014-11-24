@@ -16,4 +16,5 @@
    * [Efficiency](transformers/efficiency.md)
    * [3phase Transformers](transformers/3phase_transformers.md)
    * [Per-unit System](transformers/per-unit_system)
+* [Electromechanical Energy Conversion](electromechanical_energy_conversion/README.md)
 

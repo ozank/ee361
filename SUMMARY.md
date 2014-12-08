@@ -17,4 +17,8 @@
    * [3phase Transformers](transformers/3phase_transformers.md)
    * [Per-unit System](transformers/per-unit_system)
 * [Electromechanical Energy Conversion](electromechanical_energy_conversion/README.md)
+   * [Virtual Work](electromechanical_energy_conversion/virtual_work)
+   * [Singly Excited Systems](electromechanical_energy_conversion/singly_excited_systems)
+   * [Multiply Excited Systems](electromechanical_energy_conversion/multiply_excited_systems)
+   * [Dynamic Equations](electromechanical_energy_conversion/dynamic_equations)
 

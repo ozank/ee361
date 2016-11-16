@@ -18,7 +18,7 @@ For the same transformer(1000 VA) used in the no-load, short-circuit tests, calc
 - b) 1.0 pf rated current
 - c) 0.8 pf leading rated current
 
-at the primary side, if the input voltage of the transformer is kept at 230 V.
+at the secondary side, if the output voltage is 115 V at the specified load condition. Neglect the parallel branch.
 
 Equivalent circuit of the transformer is:
 
@@ -26,34 +26,35 @@ Equivalent circuit of the transformer is:
 $$R_{c}=1763~\Omega \quad X_{m}=534.3~\Omega\quad R_{eq}=0.558~\Omega\quad
 X_{eq}=2.13~\Omega\quad$$
 
-As the input voltage is kept constant, the parallel branch can be neglected and the equivalent circuit becomes:
+The parallel branch is neglected and the equivalent circuit becomes:
 ![](../images/mostsimplified.png)
+The series branch elements are moved to the secondary side:
+$$R_{eq}=0.140~\Omega\quad
+X_{eq}=0.532~\Omega\quad$$
 
-$$\vec{V_1}=\vec{V_2'}+(R_{eq}+jX_{eq})\vec{I_1}$$
-At no load, \\(I_1=0\\), thus:
-$$\vec{V_2'}_{no~load}=\vec{V_1'}=230~V$$
+$$\vec{V_1'}=\vec{V_2}+(R_{eq}+jX_{eq})\vec{I_2}$$
 
 When the machine operates at rated load:
-$$I_{rated}=\frac{S_{rated}}{V_{rated}}=\frac{1000}{230}=4.35~A$$
+$$I_{rated}=\frac{S_{rated}}{V_{rated}}=\frac{1000}{115}=8.7~A$$
 
 **a) 0.8 pf lagging rated current:**
-$$\vec{V_1}=\vec{V_2'}+(R_{eq}+jX_{eq})\vec{I_1}$$
-$$\vec{V_2'}=\vec{V_1}-(R_{eq}+jX_{eq})\vec{I_1}$$
-$$\vec{V_2'}=230 \angle 0-(0.558+j2.13)4.35\angle{-37}=222.5\angle -1.5$$
+$$\vec{V_1'}=\vec{V_2}+(R_{eq}+jX_{eq})\vec{I_2}$$
+$$\vec{V_1'}=115 \angle 0-(0.140+j0.532)8.7\angle{-37}=118.8\angle 1.4$$
+At no load the current will be zero, so the secondary side voltage will be equal to 118.8 V, dropping to 115V at full load
 
-$$V_{reg}=\frac{V_2(No\;Load)-V_2(Full\;Load)}{V_2(No\;Load)}$$
-$$V_{reg}=\frac{230-222.5}{230}=3.26\%$$
+$$V_{reg}=\frac{V_2(No\;Load)-V_2(Full\;Load)}{V_2(Full\;Load)}$$
+$$V_{reg}=\frac{118.8-115}{115}=3.3\%$$
 
 **b) 1.0 pf resistive rated current:**
 
-$$\vec{V_2'}=230 \angle 0-(0.558+j2.13)4.35\angle{0}=227.8\angle -2.3$$
+$$\vec{V_1'}=115 \angle 0-(0.140+j0.532)8.7\angle{0}=116.3\angle 2.28$$
 
-$$V_{reg}=\frac{230-227.8}{230}=0.96\%$$
+$$V_{reg}=\frac{116.3-115}{115}=1.06\%$$
 
 **c) 0.8 pf leading rated current:**
 
-$$\vec{V_2'}=230 \angle 0-(0.558+j2.13)4.35\angle{37}=233.8\angle -2.18$$
+$$\vec{V_1'}=115 \angle 0-(0.140+j0.532)8.7\angle{37}=113\angle 2.24$$
 
-$$V_{reg}=\frac{230-233.8}{230}=-1.65\%$$
+$$V_{reg}=\frac{113-115}{115}=-1.5\%$$
 
-with capacitive load negative voltage regulation is achieved.
+with capacitive load negative voltage regulation is achieved. The secondary side voltage magnitude increases with increasing load!

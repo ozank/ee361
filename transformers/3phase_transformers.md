@@ -26,7 +26,7 @@ Suppose that primary and secondary leakage reactances (actual values) of each si
 
 ![](../images/3phase_ex.jpg)
 
-Obtain the single-phase equivalent circuit of the above system on the HV side (use per-phase-Wye basis).
+Obtain the single-phase equivalent circuit of the above system on the HV side (use per-phase-Wye basis)
 ---
 
 a) \\(n=\frac{N\_1}{N\_2}=\frac{V\_{1-phase}}{V\_{2-phase}}=\frac{10000}{230}=43.5\\)
